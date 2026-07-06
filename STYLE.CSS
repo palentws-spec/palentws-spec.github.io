@@ -14,6 +14,7 @@ body {
     --surface: #ffffff;
     --nav-bg: #111;
     --nav-text: #fff;
+    --nav-hover: #000;
     --border: #111;
     --shadow: rgba(0, 0, 0, 0.2);
 }
@@ -24,6 +25,7 @@ body.dark {
     --surface: #000;
     --nav-bg: #fff;
     --nav-text: #111;
+    --nav-hover: #fff;
     --border: #fff;
     --shadow: rgba(255, 255, 255, 0.14);
 }
@@ -68,6 +70,10 @@ body {
 
 .li-navbar:hover {
     background-color: var(--surface);
+}
+
+.li-navbar:hover .a-navbar {
+    color: var(--nav-hover);
 }
 
 .a-navbar {
