@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="id">
 
 <head>
     <meta charset="UTF-8" />
@@ -9,38 +10,34 @@
 
 <body>
     <div class="container">
-        <!-- NAVIGATION BAR -->
         <div class="navbar-container">
             <ul class="ul-navbar">
-                <li class="li-navbar">
-                    <a href="index.html" class="a-navbar">HOME</a>
-                </li>
-                <li class="li-navbar">
-                    <a href="about.html" class="a-navbar">ABOUT ME</a>
-                </li>
-                <li class="li-navbar">
-                    <a href="contact.html" class="a-navbar">CONTACT ME</a>
-                </li>
+                <li class="li-navbar"><a href="index.html" class="a-navbar">HOME</a></li>
+                <li class="li-navbar"><a href="about.html" class="a-navbar">ABOUT ME</a></li>
+                <li class="li-navbar"><a href="contact.html" class="a-navbar">CONTACT ME</a></li>
                 <li class="li-navbar">
                     <button class="toggle-theme" id="theme-toggle" type="button" aria-label="Toggle dark mode">🌙 DARK</button>
                 </li>
             </ul>
         </div>
-        <!-- NAVIGATION BAR SELESAI -->
 
-        <!-- CONTENT 1 -->
         <div class="container-content">
-                <img src="IMG-20260706-WA0044.jpg" class="img-content" />
-            </a>
+            <div class="hero-wrapper">
+                <div class="hero-text">
+                    <h2>HALO, SAYA PALENT! 👋</h2>
+                    <p>Selamat datang di website pribadi saya. Silakan jelajahi halaman untuk mengenal saya lebih jauh melalui LinkedIn atau Instagram.</p>
+                </div>
+                <div class="hero-image">
+                    <img src="IMG-20260706-WA0044.jpg" class="img-content" alt="Foto Palen" />
+                </div>
+            </div>
         </div>
-        <!-- CONTENT 1 END -->
 
-        <!-- FOOTER -->
         <div class="container-footer">
-            <h1 class="h1-footer">JANGAN BANYAK COMENT SUSAH BUAT NYA.</h1>
+            <h1 class="h1-footer"> berusaha Semangat ngoding! 😉</h1>
         </div>
-        <!-- FOOTER END -->
     </div>
+
     <script>
         const toggleButton = document.getElementById("theme-toggle");
         const savedTheme = localStorage.getItem("theme");
